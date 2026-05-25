@@ -17,7 +17,7 @@ jobs:
         node-version: 20
 
     - name: Install Application Dependencies
-      run: npm ci
+      run: npm install
 
     - name: Execute Enterprise Automated Testing Gate
       run: npm run test
